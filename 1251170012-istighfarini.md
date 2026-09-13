@@ -4,7 +4,7 @@
 **kelas:** 3B
 
 ---  
-# BAGIAN A RENCANGAN ALGORITMA DENGAN KARATERISTIK LENGKAP  
+# BAGIAN A: RANCANGAN ALGORITMA DENGAN KARAKTERISTIK LENGKAP  
 ### CASE KELAS B (Pendaftaran & Otentikasi pengguna Baru)
 **Langkah-langkah (Instruksi Tersruktur):**  
 Mulai 
@@ -26,5 +26,10 @@ Mulai
 1. **Input:** Email, password, kode OTP.  
 2. **Output:** pesan eror (jika gagal) atau pesan pembuatan akun berhasil dan data tersimpan.
 3. **Definiteness:** syarat password yang jelas, kondisi validasi email dan pencocokan kode OTP bernilai pasti tanpa ada makna ganda.  
-4. **Finiteness:** proses berakhir dengan jelas pada dua kemungkinan: berhasih membuat akun atau proses dihentikan oleh pengguna.  
-5. **Effenctiveness:** setiap langgkah terstruktur dari pengumpulan data hingga verifikasi 2 langkah, menjadikannya logis dan bisa diterapkan oleh sistem secara nyata.
+4. **Finiteness:** proses berakhir dengan jelas pada dua kemungkinan: berhasil membuat akun atau proses dihentikan oleh pengguna.  
+5. **Effectiveness:** setiap langkah terstruktur dari pengumpulan data hingga verifikasi 2 langkah, menjadikannya logis dan bisa diterapkan oleh sistem secara nyata.
+
+   ---
+   # BAGIAN B: ANALISIS PEMILIHAN STRUKTUR DATA
+   **1.Skenario 1 (Fitur Undo / Redo)**
+   * **Struktur Data Terpilih:** Stack 
