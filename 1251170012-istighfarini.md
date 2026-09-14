@@ -4,7 +4,7 @@
 **kelas:** 3B
 
 ---  
-# BAGIAN A: RANCANGAN ALGORITMA DENGAN KARAKTERISTIK LENGKAP  
+## BAGIAN A: RANCANGAN ALGORITMA DENGAN KARAKTERISTIK LENGKAP  
 ### CASE KELAS B (Pendaftaran & Otentikasi pengguna Baru)
 **Langkah-langkah (Instruksi Tersruktur):**  
 Mulai 
@@ -30,6 +30,7 @@ Mulai
 5. **Effectiveness:** setiap langkah terstruktur dari pengumpulan data hingga verifikasi 2 langkah, menjadikannya logis dan bisa diterapkan oleh sistem secara nyata.
 
    ---
-   # BAGIAN B: ANALISIS PEMILIHAN STRUKTUR DATA
+   ## BAGIAN B: ANALISIS PEMILIHAN STRUKTUR DATA
    **1.Skenario 1 (Fitur Undo / Redo)**
-   * **Struktur Data Terpilih:** Stack 
+   * **Struktur Data Terpilih:** Stack
+   * **Alasan:** stack menggunakan prinsip Last In First Out (LIFO) sedangkan Fitur UNDO mengembalikan 
